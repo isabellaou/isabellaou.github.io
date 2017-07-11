@@ -471,7 +471,7 @@ hr.line-spacer {
 }
 .entry .body1 ul li:before {
   content: "–";
-  margin-right: 1.2em;
+	margin-right: 1.2em;
 }
 .footer_1{
 	text-align: center;
