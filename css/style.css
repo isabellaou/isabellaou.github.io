@@ -78,13 +78,13 @@ body {
   background-repeat: no-repeat;
   display: inline-block;
   position: relative;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   top: 10px;
 }
 #intro1{
     font-family: 'Century Gothic';
-    font-size: 50px;
+    font-size: 45px;
     color: #000000;
 }
 hr.line-spacer {
@@ -501,7 +501,7 @@ hr.line-spacer {
 }
 .social-media_1 .item_4{
 	display: inline-block;
-	margin: 0 1em;
+	margin: 1em 1em;
 }
 .social-media_1 .item_4 a{
 	background-color: #fff;
