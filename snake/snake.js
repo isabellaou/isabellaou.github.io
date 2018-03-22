@@ -3,7 +3,7 @@ var width = 50;
 var height = 30;
 var snake_x = 1;
 var snake_y = 1;
-var interval = 100;
+var interval = 200;
 var int_id;
 
 // game varibales
@@ -94,22 +94,22 @@ function createFruit(){
 	fruitY = randY;
 }
 
-window.addEventListener("keypress", function key(event){ 
+window.addEventListener("keydown", function key(event){ 
 	var key = event.keyCode; 
 	// up = 1, down = -1, left = 2, right = -2 
-    if(direction != -1 && (key == 119 || key == 87)){
+    if(direction != -1 && (key == 119 || key == 87 || key == 38)){
     	tempdir = 1;
     	// document.getElementById("test").innerHTML = "Up";
     }
-    else if(direction != 1 && (key == 115 || key == 83)){
+    else if(direction != 1 && (key == 115 || key == 83 || key == 40)){
     	tempdir = -1;
     	// document.getElementById("test").innerHTML = "Down";
     }
-    else if(direction != -2 && (key == 97 || key == 65)){
+    else if(direction != -2 && (key == 97 || key == 65 || key == 37)){
     	tempdir = 2;
     	// document.getElementById("test").innerHTML = "Left";
     }
-    else if(direction != 2 && (key == 100 || key == 68)){
+    else if(direction != 2 && (key == 100 || key == 68 || key == 39)){
     	tempdir = -2;
     	// document.getElementById("test").innerHTML = "Right";
     }
