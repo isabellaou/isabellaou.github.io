@@ -14,16 +14,22 @@
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <style>
-  body, ul, dl, a{
-		margin:0px;
-		padding:0px;
-		text-decoration: none;
-		list-style:none;
-	}
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+	  <style>
+	  	body, ul, dl, a{
+			margin:0px;
+			padding:0px;
+			text-decoration: none;
+			list-style:none;
+		}
 
 		body{
 			background: #eee;
+		}
+
+		i{
+			margin-right:10px;
+			margin-left:0px;
 		}
 
 		#bg {
@@ -49,9 +55,9 @@
 		background: #fff;
 		box-shadow: 0 0 5px #555;
 		border-radius: 10px;
-		font-size: 14px;
+		font-size: 16px;
 		overflow: hidden;
-		font-weight: 300;
+		font-weight: 500;
 		font-family:arial, verdana, microsoft yahei;
 		}
 
@@ -60,8 +66,8 @@
 		display: block;
 		min-width: 50px;
 		max-width:100%;
-		height:40px;
-		line-height:40px;
+		height:50px;
+		line-height:50px;
 		text-align: center;
 		border-bottom: 1px solid #ccc;
 		transition: all .3s ease;
@@ -96,11 +102,13 @@
   <body>
     <base target="_blank"/>
     <div id="bg"></div>
-    <div id="t">Demo</div>
+    <div id="t"><i class="fa fa-laptop"></i>Demo</div>
     <div id="list">
-	<a href="./3DCarousel/index.html">3D Carousel</a>
-	<a href="./NumberPuzzle/puzzle.html">Number Puzzle</a>
-	<a href="./snake/snake.html">Snake</a>
+    	<a href="./weather-app/index.html"><i class="em em-sunny"></i>Weather App</a>
+		<a href="./3DCarousel/index.html"><i class="em em-frame_with_picture"></i>3D Carousel</a>
+		<a href="./NumberPuzzle/puzzle.html"><i class="em em-1234"></i>Number Puzzle</a>
+		<a href="./snake/snake.html"><i class="em em-snake"></i>Snake</a>
+		
     </div>
   </body>
 </html>
