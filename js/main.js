@@ -1,5 +1,7 @@
 
 $(document).ready(function(){
+
+  // loader();
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
 
@@ -23,3 +25,7 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+// function loader(){
+//   $('#loader-wrap').removeClass('hide');  
+// }
